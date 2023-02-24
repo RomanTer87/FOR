@@ -1,4 +1,4 @@
-//Geometry
+ï»¿//Geometry
 #include<iostream>
 using namespace std;
 using std::cin;
@@ -24,7 +24,7 @@ void main()
 	setlocale(LC_ALL, "");
 	int n;
 #ifdef GEOMETRY_1
-		cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -36,7 +36,7 @@ void main()
 #endif // GEOMETRY_1
 	
 #ifdef TRIANGLE_1
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		for (int j = 0; j < i; j++)
@@ -48,7 +48,7 @@ void main()
 #endif // TRIANGLE_1
 
 #ifdef TRIANGLE_2
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	for (int i = n; i > 0; i--)
 	{
 		for (int j = 1; j <= i; j++)
@@ -61,7 +61,7 @@ void main()
 #endif // TRIANGLE_2
 
 #ifdef TRIANGLE_2_v2
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = n; j >= 1; j--)
@@ -76,7 +76,7 @@ void main()
 #ifdef TRIANGLE_3
 
 	int g = 4;
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	for (int i = n; i >= 0; i--,g+=2)
 	{
 		for (int j = i; j>0; j--)
@@ -90,7 +90,7 @@ void main()
 #endif // TRIANGLE_3
 
 #ifdef TRIANGLE_4
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	int g = n * 2;
 	for (int i = 1; i <= n; i++, g -= 2)
 	{
@@ -105,7 +105,7 @@ void main()
 #endif // TRIANGLE_4
 
 #ifdef RHOMBUS
-	cout << "Ââåäèòå ðàçìåð ðîìáà (÷åòíîå ÷èñëî): "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ€Ð¾Ð¼Ð±Ð° (Ñ‡ÐµÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾): "; cin >> n;
 	if (n % 2 == 0)
 	{
 		int leftc = n / 2;
@@ -145,12 +145,12 @@ void main()
 	}
 	else
 	{
-		cout << "Âû ââåëè íå÷åòíîå ÷èñëî!";
+		cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ Ð½ÐµÑ‡ÐµÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾!";
 	}
 #endif // RHOMBUS
 
 #ifdef LAST_TASK
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		if (i % 2 == 0)
@@ -218,7 +218,7 @@ void main()
 #endif // PLUS_MINUS
 
 #ifdef TRIANGLE_3_v2
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = n; j > i; j--)
@@ -234,7 +234,7 @@ void main()
 #endif // TRIANGLE_3_v2
 
 #ifdef TRIANGLE_4_v2
-	cout << "Ââåäèòå ðàçìåð òðåóãîëüíèêà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++)
