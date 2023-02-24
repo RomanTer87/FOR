@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 #define UPPER_LEFT_ANGLE (char)218
@@ -11,7 +11,7 @@ using namespace std;
 #define BLACK_BOX ' '
 
 /*
-Escape-последовательность '\x' позволяет добавить в строковую константу символ по его Шестнадцатиричному 
+Escape-РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ '\x' РїРѕР·РІРѕР»СЏРµС‚ РґРѕР±Р°РІРёС‚СЊ РІ СЃС‚СЂРѕРєРѕРІСѓСЋ РєРѕРЅСЃС‚Р°РЅС‚Сѓ СЃРёРјРІРѕР» РїРѕ РµРіРѕ РЁРµСЃС‚РЅР°РґС†Р°С‚РёСЂРёС‡РЅРѕРјСѓ 
 */
 
 void main()
@@ -22,7 +22,7 @@ void main()
 	}*/
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Введите размер доски: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё: "; cin >> n;
 	n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
