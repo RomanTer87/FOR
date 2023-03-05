@@ -5,7 +5,7 @@ using std::cout;
 using std::endl;
 
 //#define CHESS_1
-#define CHESS_2
+//#define CHESS_2
 
 #define UPPER_LEFT_ANGLE (char)218
 #define UPPER_RIGHT_ANGLE (char)191
